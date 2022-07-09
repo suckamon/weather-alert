@@ -1,0 +1,24 @@
+<?php
+// Yahoo気象情報API
+define('API_URL', 'https://map.yahooapis.jp/weather/V1/place');
+
+// アプリケーションID
+define('APP_ID', '');
+
+// LINE Notify Token
+define('LINE_TOKEN', '');
+
+// 緯度
+define('LATITUDE', '');
+
+// 経度
+define('LONGITUDE', '');
+
+// 警報を発しない時間帯_開始
+define('EXCLUDE_ALERT_STARTHOUR', 0);
+
+// 警報を発しない時間帯_終了
+define('EXCLUDE_ALERT_ENDHOUR', 6);
+
+// 小雨判定の閾値(mm/h)
+define('LIGHT_RAIN', 1);
